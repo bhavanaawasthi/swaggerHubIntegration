@@ -2,7 +2,7 @@
 <!--
 Res.Grosvenor - Rank
 
-TODO: Add a description
+Rank Enterprise Services API is a collection of business services exposed over a RESTful inteface. This endpoint is specific to Grosvenor Casinos implementation.
 
 OpenAPI spec version: 1.0
 
@@ -24,7 +24,7 @@ limitations under the License.
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{76E5BEAF-9A9E-40A3-AA18-2A17FF55A57F}</ProjectGuid>
+    <ProjectGuid>{51BA0FE9-9AC9-496F-BAB3-DC95F204CE5A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>IO.Swagger</RootNamespace>
