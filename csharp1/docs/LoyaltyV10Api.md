@@ -279,7 +279,7 @@ void (empty response body)
 
 Retrieve Points balance
 
-Retrieves play points balance for the customer, any one of the below parameters is required. | Name          | Type  | Description                                       | Example           | |:- --           |:- --   |:- --                                               |:- --               | |playerId       |long   |Customer identifier from the digital platform.     |570515106383925248 | |cardNo         |number |Number on the back of the membership card.         |16227376           | |membershipNo   |string |Retail Casino membership number.                   |1850034070         |
+Retrieves play points balance for the customer, any one of the below parameters is required. | Name          | Type  | Description                                       | Example           | |:- --           |:- --   |:- --                                               |:- --               | |playerId       |long   |Customer identifier from the digital platform.     |570515106383925248 | |cardNo         |number |Number on the back of the membership card.         |16227376           | |membershipNo   |string |Retail Casino membership number.                   |1850034070         | |testId       |long   |Customer identifier from the digital platform.     |570515106383925248 |
 
 ### Example
 ```csharp

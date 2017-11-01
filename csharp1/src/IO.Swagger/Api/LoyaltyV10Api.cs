@@ -124,7 +124,7 @@ namespace IO.Swagger.Api
         /// Retrieve Points balance
         /// </summary>
         /// <remarks>
-        /// Retrieves play points balance for the customer, any one of the below parameters is required. | Name          | Type  | Description                                       | Example           | |:- --           |:- --   |:- --                                               |:- --               | |playerId       |long   |Customer identifier from the digital platform.     |570515106383925248 | |cardNo         |number |Number on the back of the membership card.         |16227376           | |membershipNo   |string |Retail Casino membership number.                   |1850034070         |
+        /// Retrieves play points balance for the customer, any one of the below parameters is required. | Name          | Type  | Description                                       | Example           | |:- --           |:- --   |:- --                                               |:- --               | |playerId       |long   |Customer identifier from the digital platform.     |570515106383925248 | |cardNo         |number |Number on the back of the membership card.         |16227376           | |membershipNo   |string |Retail Casino membership number.                   |1850034070         | |testId       |long   |Customer identifier from the digital platform.     |570515106383925248 |
         /// </remarks>
         /// <exception cref="IO.Swagger.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="playerId">Customer identifier from the digital platform (optional)</param>
@@ -137,7 +137,7 @@ namespace IO.Swagger.Api
         /// Retrieve Points balance
         /// </summary>
         /// <remarks>
-        /// Retrieves play points balance for the customer, any one of the below parameters is required. | Name          | Type  | Description                                       | Example           | |:- --           |:- --   |:- --                                               |:- --               | |playerId       |long   |Customer identifier from the digital platform.     |570515106383925248 | |cardNo         |number |Number on the back of the membership card.         |16227376           | |membershipNo   |string |Retail Casino membership number.                   |1850034070         |
+        /// Retrieves play points balance for the customer, any one of the below parameters is required. | Name          | Type  | Description                                       | Example           | |:- --           |:- --   |:- --                                               |:- --               | |playerId       |long   |Customer identifier from the digital platform.     |570515106383925248 | |cardNo         |number |Number on the back of the membership card.         |16227376           | |membershipNo   |string |Retail Casino membership number.                   |1850034070         | |testId       |long   |Customer identifier from the digital platform.     |570515106383925248 |
         /// </remarks>
         /// <exception cref="IO.Swagger.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="playerId">Customer identifier from the digital platform (optional)</param>
@@ -235,7 +235,7 @@ namespace IO.Swagger.Api
         /// Retrieve Points balance
         /// </summary>
         /// <remarks>
-        /// Retrieves play points balance for the customer, any one of the below parameters is required. | Name          | Type  | Description                                       | Example           | |:- --           |:- --   |:- --                                               |:- --               | |playerId       |long   |Customer identifier from the digital platform.     |570515106383925248 | |cardNo         |number |Number on the back of the membership card.         |16227376           | |membershipNo   |string |Retail Casino membership number.                   |1850034070         |
+        /// Retrieves play points balance for the customer, any one of the below parameters is required. | Name          | Type  | Description                                       | Example           | |:- --           |:- --   |:- --                                               |:- --               | |playerId       |long   |Customer identifier from the digital platform.     |570515106383925248 | |cardNo         |number |Number on the back of the membership card.         |16227376           | |membershipNo   |string |Retail Casino membership number.                   |1850034070         | |testId       |long   |Customer identifier from the digital platform.     |570515106383925248 |
         /// </remarks>
         /// <exception cref="IO.Swagger.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="playerId">Customer identifier from the digital platform (optional)</param>
@@ -248,7 +248,7 @@ namespace IO.Swagger.Api
         /// Retrieve Points balance
         /// </summary>
         /// <remarks>
-        /// Retrieves play points balance for the customer, any one of the below parameters is required. | Name          | Type  | Description                                       | Example           | |:- --           |:- --   |:- --                                               |:- --               | |playerId       |long   |Customer identifier from the digital platform.     |570515106383925248 | |cardNo         |number |Number on the back of the membership card.         |16227376           | |membershipNo   |string |Retail Casino membership number.                   |1850034070         |
+        /// Retrieves play points balance for the customer, any one of the below parameters is required. | Name          | Type  | Description                                       | Example           | |:- --           |:- --   |:- --                                               |:- --               | |playerId       |long   |Customer identifier from the digital platform.     |570515106383925248 | |cardNo         |number |Number on the back of the membership card.         |16227376           | |membershipNo   |string |Retail Casino membership number.                   |1850034070         | |testId       |long   |Customer identifier from the digital platform.     |570515106383925248 |
         /// </remarks>
         /// <exception cref="IO.Swagger.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="playerId">Customer identifier from the digital platform (optional)</param>
@@ -1045,7 +1045,7 @@ namespace IO.Swagger.Api
         }
 
         /// <summary>
-        /// Retrieve Points balance Retrieves play points balance for the customer, any one of the below parameters is required. | Name          | Type  | Description                                       | Example           | |:- --           |:- --   |:- --                                               |:- --               | |playerId       |long   |Customer identifier from the digital platform.     |570515106383925248 | |cardNo         |number |Number on the back of the membership card.         |16227376           | |membershipNo   |string |Retail Casino membership number.                   |1850034070         |
+        /// Retrieve Points balance Retrieves play points balance for the customer, any one of the below parameters is required. | Name          | Type  | Description                                       | Example           | |:- --           |:- --   |:- --                                               |:- --               | |playerId       |long   |Customer identifier from the digital platform.     |570515106383925248 | |cardNo         |number |Number on the back of the membership card.         |16227376           | |membershipNo   |string |Retail Casino membership number.                   |1850034070         | |testId       |long   |Customer identifier from the digital platform.     |570515106383925248 |
         /// </summary>
         /// <exception cref="IO.Swagger.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="playerId">Customer identifier from the digital platform (optional)</param>
@@ -1059,7 +1059,7 @@ namespace IO.Swagger.Api
         }
 
         /// <summary>
-        /// Retrieve Points balance Retrieves play points balance for the customer, any one of the below parameters is required. | Name          | Type  | Description                                       | Example           | |:- --           |:- --   |:- --                                               |:- --               | |playerId       |long   |Customer identifier from the digital platform.     |570515106383925248 | |cardNo         |number |Number on the back of the membership card.         |16227376           | |membershipNo   |string |Retail Casino membership number.                   |1850034070         |
+        /// Retrieve Points balance Retrieves play points balance for the customer, any one of the below parameters is required. | Name          | Type  | Description                                       | Example           | |:- --           |:- --   |:- --                                               |:- --               | |playerId       |long   |Customer identifier from the digital platform.     |570515106383925248 | |cardNo         |number |Number on the back of the membership card.         |16227376           | |membershipNo   |string |Retail Casino membership number.                   |1850034070         | |testId       |long   |Customer identifier from the digital platform.     |570515106383925248 |
         /// </summary>
         /// <exception cref="IO.Swagger.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="playerId">Customer identifier from the digital platform (optional)</param>
@@ -1126,7 +1126,7 @@ namespace IO.Swagger.Api
         }
 
         /// <summary>
-        /// Retrieve Points balance Retrieves play points balance for the customer, any one of the below parameters is required. | Name          | Type  | Description                                       | Example           | |:- --           |:- --   |:- --                                               |:- --               | |playerId       |long   |Customer identifier from the digital platform.     |570515106383925248 | |cardNo         |number |Number on the back of the membership card.         |16227376           | |membershipNo   |string |Retail Casino membership number.                   |1850034070         |
+        /// Retrieve Points balance Retrieves play points balance for the customer, any one of the below parameters is required. | Name          | Type  | Description                                       | Example           | |:- --           |:- --   |:- --                                               |:- --               | |playerId       |long   |Customer identifier from the digital platform.     |570515106383925248 | |cardNo         |number |Number on the back of the membership card.         |16227376           | |membershipNo   |string |Retail Casino membership number.                   |1850034070         | |testId       |long   |Customer identifier from the digital platform.     |570515106383925248 |
         /// </summary>
         /// <exception cref="IO.Swagger.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="playerId">Customer identifier from the digital platform (optional)</param>
@@ -1141,7 +1141,7 @@ namespace IO.Swagger.Api
         }
 
         /// <summary>
-        /// Retrieve Points balance Retrieves play points balance for the customer, any one of the below parameters is required. | Name          | Type  | Description                                       | Example           | |:- --           |:- --   |:- --                                               |:- --               | |playerId       |long   |Customer identifier from the digital platform.     |570515106383925248 | |cardNo         |number |Number on the back of the membership card.         |16227376           | |membershipNo   |string |Retail Casino membership number.                   |1850034070         |
+        /// Retrieve Points balance Retrieves play points balance for the customer, any one of the below parameters is required. | Name          | Type  | Description                                       | Example           | |:- --           |:- --   |:- --                                               |:- --               | |playerId       |long   |Customer identifier from the digital platform.     |570515106383925248 | |cardNo         |number |Number on the back of the membership card.         |16227376           | |membershipNo   |string |Retail Casino membership number.                   |1850034070         | |testId       |long   |Customer identifier from the digital platform.     |570515106383925248 |
         /// </summary>
         /// <exception cref="IO.Swagger.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="playerId">Customer identifier from the digital platform (optional)</param>

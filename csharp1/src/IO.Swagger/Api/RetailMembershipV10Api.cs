@@ -40,7 +40,7 @@ namespace IO.Swagger.Api
         /// Get lookup values
         /// </summary>
         /// <remarks>
-        /// All lookup valus are provided through this single endpoint. The consuming application can request which lookup value list to be included in the response. if any of the parameter ommitted from the questring parameter or supplied value &#x60;false&#x60;, the response will not include the key and value (list) for category.
+        /// All lookup valus are provided through this single endpoint. The consuming application can request which lookup value list to be included in the response. if any of the parameter ommitted from the questring parameter or supplied value &#x60;false&#x60;, the response will not include the key and value (list) for category. 
         /// </remarks>
         /// <exception cref="IO.Swagger.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="includeNationalities">include nationality look up values in the response (optional)</param>
@@ -54,7 +54,7 @@ namespace IO.Swagger.Api
         /// Get lookup values
         /// </summary>
         /// <remarks>
-        /// All lookup valus are provided through this single endpoint. The consuming application can request which lookup value list to be included in the response. if any of the parameter ommitted from the questring parameter or supplied value &#x60;false&#x60;, the response will not include the key and value (list) for category.
+        /// All lookup valus are provided through this single endpoint. The consuming application can request which lookup value list to be included in the response. if any of the parameter ommitted from the questring parameter or supplied value &#x60;false&#x60;, the response will not include the key and value (list) for category. 
         /// </remarks>
         /// <exception cref="IO.Swagger.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="includeNationalities">include nationality look up values in the response (optional)</param>
@@ -115,7 +115,7 @@ namespace IO.Swagger.Api
         /// Get lookup values
         /// </summary>
         /// <remarks>
-        /// All lookup valus are provided through this single endpoint. The consuming application can request which lookup value list to be included in the response. if any of the parameter ommitted from the questring parameter or supplied value &#x60;false&#x60;, the response will not include the key and value (list) for category.
+        /// All lookup valus are provided through this single endpoint. The consuming application can request which lookup value list to be included in the response. if any of the parameter ommitted from the questring parameter or supplied value &#x60;false&#x60;, the response will not include the key and value (list) for category. 
         /// </remarks>
         /// <exception cref="IO.Swagger.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="includeNationalities">include nationality look up values in the response (optional)</param>
@@ -129,7 +129,7 @@ namespace IO.Swagger.Api
         /// Get lookup values
         /// </summary>
         /// <remarks>
-        /// All lookup valus are provided through this single endpoint. The consuming application can request which lookup value list to be included in the response. if any of the parameter ommitted from the questring parameter or supplied value &#x60;false&#x60;, the response will not include the key and value (list) for category.
+        /// All lookup valus are provided through this single endpoint. The consuming application can request which lookup value list to be included in the response. if any of the parameter ommitted from the questring parameter or supplied value &#x60;false&#x60;, the response will not include the key and value (list) for category. 
         /// </remarks>
         /// <exception cref="IO.Swagger.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="includeNationalities">include nationality look up values in the response (optional)</param>
@@ -297,7 +297,7 @@ namespace IO.Swagger.Api
         }
 
         /// <summary>
-        /// Get lookup values All lookup valus are provided through this single endpoint. The consuming application can request which lookup value list to be included in the response. if any of the parameter ommitted from the questring parameter or supplied value &#x60;false&#x60;, the response will not include the key and value (list) for category.
+        /// Get lookup values All lookup valus are provided through this single endpoint. The consuming application can request which lookup value list to be included in the response. if any of the parameter ommitted from the questring parameter or supplied value &#x60;false&#x60;, the response will not include the key and value (list) for category. 
         /// </summary>
         /// <exception cref="IO.Swagger.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="includeNationalities">include nationality look up values in the response (optional)</param>
@@ -312,7 +312,7 @@ namespace IO.Swagger.Api
         }
 
         /// <summary>
-        /// Get lookup values All lookup valus are provided through this single endpoint. The consuming application can request which lookup value list to be included in the response. if any of the parameter ommitted from the questring parameter or supplied value &#x60;false&#x60;, the response will not include the key and value (list) for category.
+        /// Get lookup values All lookup valus are provided through this single endpoint. The consuming application can request which lookup value list to be included in the response. if any of the parameter ommitted from the questring parameter or supplied value &#x60;false&#x60;, the response will not include the key and value (list) for category. 
         /// </summary>
         /// <exception cref="IO.Swagger.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="includeNationalities">include nationality look up values in the response (optional)</param>
@@ -381,7 +381,7 @@ namespace IO.Swagger.Api
         }
 
         /// <summary>
-        /// Get lookup values All lookup valus are provided through this single endpoint. The consuming application can request which lookup value list to be included in the response. if any of the parameter ommitted from the questring parameter or supplied value &#x60;false&#x60;, the response will not include the key and value (list) for category.
+        /// Get lookup values All lookup valus are provided through this single endpoint. The consuming application can request which lookup value list to be included in the response. if any of the parameter ommitted from the questring parameter or supplied value &#x60;false&#x60;, the response will not include the key and value (list) for category. 
         /// </summary>
         /// <exception cref="IO.Swagger.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="includeNationalities">include nationality look up values in the response (optional)</param>
@@ -397,7 +397,7 @@ namespace IO.Swagger.Api
         }
 
         /// <summary>
-        /// Get lookup values All lookup valus are provided through this single endpoint. The consuming application can request which lookup value list to be included in the response. if any of the parameter ommitted from the questring parameter or supplied value &#x60;false&#x60;, the response will not include the key and value (list) for category.
+        /// Get lookup values All lookup valus are provided through this single endpoint. The consuming application can request which lookup value list to be included in the response. if any of the parameter ommitted from the questring parameter or supplied value &#x60;false&#x60;, the response will not include the key and value (list) for category. 
         /// </summary>
         /// <exception cref="IO.Swagger.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="includeNationalities">include nationality look up values in the response (optional)</param>

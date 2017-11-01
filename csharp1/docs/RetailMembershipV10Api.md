@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 Get lookup values
 
-All lookup valus are provided through this single endpoint. The consuming application can request which lookup value list to be included in the response. if any of the parameter ommitted from the questring parameter or supplied value `false`, the response will not include the key and value (list) for category.
+All lookup valus are provided through this single endpoint. The consuming application can request which lookup value list to be included in the response. if any of the parameter ommitted from the questring parameter or supplied value `false`, the response will not include the key and value (list) for category. 
 
 ### Example
 ```csharp
