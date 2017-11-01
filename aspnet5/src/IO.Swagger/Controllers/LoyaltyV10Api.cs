@@ -122,12 +122,13 @@ namespace IO.Swagger.Controllers
         /// <param name="playerId">Customer identifier from the digital platform</param>
         /// <param name="cardNo">Number on the back of the membership card. If specified, then Grade will be returned.</param>
         /// <param name="membershipNo">Retail Casino membership number.</param>
+        /// <param name="testMembershipNo">Retail test Casino membership number.</param>
         /// <response code="200"></response>
         [HttpGet]
         [Route("//loyalty/v1/points/")]
         [SwaggerOperation("RetrievePointsBalance")]
         [SwaggerResponse(200, type: typeof(RetrievePointsBalanceResponse))]
-        public virtual IActionResult RetrievePointsBalance([FromQuery]long? playerId, [FromQuery]double? cardNo, [FromQuery]string membershipNo)
+        public virtual IActionResult RetrievePointsBalance([FromQuery]long? playerId, [FromQuery]double? cardNo, [FromQuery]string membershipNo, [FromQuery]string testMembershipNo)
         { 
             string exampleJson = null;
             
