@@ -275,7 +275,7 @@ void (empty response body)
 
 <a name="retrievepointsbalance"></a>
 # **RetrievePointsBalance**
-> RetrievePointsBalanceResponse RetrievePointsBalance (long? playerId = null, double? cardNo = null, string membershipNo = null, string testMembershipNo = null)
+> RetrievePointsBalanceResponse RetrievePointsBalance (long? playerId = null, double? cardNo = null, string membershipNo = null)
 
 Retrieve Points balance
 
@@ -304,12 +304,11 @@ namespace Example
             var playerId = 789;  // long? | Customer identifier from the digital platform (optional) 
             var cardNo = 1.2;  // double? | Number on the back of the membership card. If specified, then Grade will be returned. (optional) 
             var membershipNo = membershipNo_example;  // string | Retail Casino membership number. (optional) 
-            var testMembershipNo = testMembershipNo_example;  // string | Retail test Casino membership number. (optional) 
 
             try
             {
                 // Retrieve Points balance
-                RetrievePointsBalanceResponse result = apiInstance.RetrievePointsBalance(playerId, cardNo, membershipNo, testMembershipNo);
+                RetrievePointsBalanceResponse result = apiInstance.RetrievePointsBalance(playerId, cardNo, membershipNo);
                 Debug.WriteLine(result);
             }
             catch (Exception e)
@@ -328,7 +327,6 @@ Name | Type | Description  | Notes
  **playerId** | **long?**| Customer identifier from the digital platform | [optional] 
  **cardNo** | **double?**| Number on the back of the membership card. If specified, then Grade will be returned. | [optional] 
  **membershipNo** | **string**| Retail Casino membership number. | [optional] 
- **testMembershipNo** | **string**| Retail test Casino membership number. | [optional] 
 
 ### Return type
 
