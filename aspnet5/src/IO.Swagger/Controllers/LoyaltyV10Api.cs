@@ -118,7 +118,7 @@ namespace IO.Swagger.Controllers
         /// <summary>
         /// Retrieve Points balance
         /// </summary>
-        /// <remarks>Retrieves play points balance for the customer, any one of the below parameters is required. | Name          | Type  | Description                                       | Example           | |:- --           |:- --   |:- --                                               |:- --               | |playerId       |long   |Customer identifier from the digital platform.     |570515106383925248 | |cardNo         |number |Number on the back of the membership card.         |16227376           | |membershipNo   |string |Retail Casino membership number.                   |1850034070         |</remarks>
+        /// <remarks>Retrieves play points balance for the customer, any one of the below parameters is required. | Name          | Type  | Description                                       | Example           | |:- --           |:- --   |:- --                                               |:- --               | |playerId       |long   |Customer identifier from the digital platform.     |570515106383925248 | |cardNo         |number |Number on the back of the membership card.         |16227376           | |membershipNo   |string |Retail Casino membership number.                   |1850034070         | |testId       |long   |Customer identifier from the digital platform.     |570515106383925248 |</remarks>
         /// <param name="playerId">Customer identifier from the digital platform</param>
         /// <param name="cardNo">Number on the back of the membership card. If specified, then Grade will be returned.</param>
         /// <param name="membershipNo">Retail Casino membership number.</param>

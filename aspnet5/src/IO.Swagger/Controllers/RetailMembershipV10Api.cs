@@ -44,7 +44,7 @@ namespace IO.Swagger.Controllers
         /// <summary>
         /// Get lookup values
         /// </summary>
-        /// <remarks>All lookup valus are provided through this single endpoint. The consuming application can request which lookup value list to be included in the response. if any of the parameter ommitted from the questring parameter or supplied value &#x60;false&#x60;, the response will not include the key and value (list) for category.</remarks>
+        /// <remarks>All lookup valus are provided through this single endpoint. The consuming application can request which lookup value list to be included in the response. if any of the parameter ommitted from the questring parameter or supplied value &#x60;false&#x60;, the response will not include the key and value (list) for category. </remarks>
         /// <param name="includeNationalities">include nationality look up values in the response</param>
         /// <param name="includeCountries">include country look up values in the response</param>
         /// <param name="incldueCasinos">include casino look up values in the response</param>
