@@ -130,8 +130,9 @@ namespace IO.Swagger.Api
         /// <param name="playerId">Customer identifier from the digital platform (optional)</param>
         /// <param name="cardNo">Number on the back of the membership card. If specified, then Grade will be returned. (optional)</param>
         /// <param name="membershipNo">Retail Casino membership number. (optional)</param>
+        /// <param name="testMembershipNo">Retail test Casino membership number. (optional)</param>
         /// <returns>RetrievePointsBalanceResponse</returns>
-        RetrievePointsBalanceResponse RetrievePointsBalance (long? playerId = null, double? cardNo = null, string membershipNo = null);
+        RetrievePointsBalanceResponse RetrievePointsBalance (long? playerId = null, double? cardNo = null, string membershipNo = null, string testMembershipNo = null);
 
         /// <summary>
         /// Retrieve Points balance
@@ -143,8 +144,9 @@ namespace IO.Swagger.Api
         /// <param name="playerId">Customer identifier from the digital platform (optional)</param>
         /// <param name="cardNo">Number on the back of the membership card. If specified, then Grade will be returned. (optional)</param>
         /// <param name="membershipNo">Retail Casino membership number. (optional)</param>
+        /// <param name="testMembershipNo">Retail test Casino membership number. (optional)</param>
         /// <returns>ApiResponse of RetrievePointsBalanceResponse</returns>
-        ApiResponse<RetrievePointsBalanceResponse> RetrievePointsBalanceWithHttpInfo (long? playerId = null, double? cardNo = null, string membershipNo = null);
+        ApiResponse<RetrievePointsBalanceResponse> RetrievePointsBalanceWithHttpInfo (long? playerId = null, double? cardNo = null, string membershipNo = null, string testMembershipNo = null);
         #endregion Synchronous Operations
         #region Asynchronous Operations
         /// <summary>
@@ -241,8 +243,9 @@ namespace IO.Swagger.Api
         /// <param name="playerId">Customer identifier from the digital platform (optional)</param>
         /// <param name="cardNo">Number on the back of the membership card. If specified, then Grade will be returned. (optional)</param>
         /// <param name="membershipNo">Retail Casino membership number. (optional)</param>
+        /// <param name="testMembershipNo">Retail test Casino membership number. (optional)</param>
         /// <returns>Task of RetrievePointsBalanceResponse</returns>
-        System.Threading.Tasks.Task<RetrievePointsBalanceResponse> RetrievePointsBalanceAsync (long? playerId = null, double? cardNo = null, string membershipNo = null);
+        System.Threading.Tasks.Task<RetrievePointsBalanceResponse> RetrievePointsBalanceAsync (long? playerId = null, double? cardNo = null, string membershipNo = null, string testMembershipNo = null);
 
         /// <summary>
         /// Retrieve Points balance
@@ -254,8 +257,9 @@ namespace IO.Swagger.Api
         /// <param name="playerId">Customer identifier from the digital platform (optional)</param>
         /// <param name="cardNo">Number on the back of the membership card. If specified, then Grade will be returned. (optional)</param>
         /// <param name="membershipNo">Retail Casino membership number. (optional)</param>
+        /// <param name="testMembershipNo">Retail test Casino membership number. (optional)</param>
         /// <returns>Task of ApiResponse (RetrievePointsBalanceResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<RetrievePointsBalanceResponse>> RetrievePointsBalanceAsyncWithHttpInfo (long? playerId = null, double? cardNo = null, string membershipNo = null);
+        System.Threading.Tasks.Task<ApiResponse<RetrievePointsBalanceResponse>> RetrievePointsBalanceAsyncWithHttpInfo (long? playerId = null, double? cardNo = null, string membershipNo = null, string testMembershipNo = null);
         #endregion Asynchronous Operations
     }
 
@@ -1051,10 +1055,11 @@ namespace IO.Swagger.Api
         /// <param name="playerId">Customer identifier from the digital platform (optional)</param>
         /// <param name="cardNo">Number on the back of the membership card. If specified, then Grade will be returned. (optional)</param>
         /// <param name="membershipNo">Retail Casino membership number. (optional)</param>
+        /// <param name="testMembershipNo">Retail test Casino membership number. (optional)</param>
         /// <returns>RetrievePointsBalanceResponse</returns>
-        public RetrievePointsBalanceResponse RetrievePointsBalance (long? playerId = null, double? cardNo = null, string membershipNo = null)
+        public RetrievePointsBalanceResponse RetrievePointsBalance (long? playerId = null, double? cardNo = null, string membershipNo = null, string testMembershipNo = null)
         {
-             ApiResponse<RetrievePointsBalanceResponse> localVarResponse = RetrievePointsBalanceWithHttpInfo(playerId, cardNo, membershipNo);
+             ApiResponse<RetrievePointsBalanceResponse> localVarResponse = RetrievePointsBalanceWithHttpInfo(playerId, cardNo, membershipNo, testMembershipNo);
              return localVarResponse.Data;
         }
 
@@ -1065,8 +1070,9 @@ namespace IO.Swagger.Api
         /// <param name="playerId">Customer identifier from the digital platform (optional)</param>
         /// <param name="cardNo">Number on the back of the membership card. If specified, then Grade will be returned. (optional)</param>
         /// <param name="membershipNo">Retail Casino membership number. (optional)</param>
+        /// <param name="testMembershipNo">Retail test Casino membership number. (optional)</param>
         /// <returns>ApiResponse of RetrievePointsBalanceResponse</returns>
-        public ApiResponse< RetrievePointsBalanceResponse > RetrievePointsBalanceWithHttpInfo (long? playerId = null, double? cardNo = null, string membershipNo = null)
+        public ApiResponse< RetrievePointsBalanceResponse > RetrievePointsBalanceWithHttpInfo (long? playerId = null, double? cardNo = null, string membershipNo = null, string testMembershipNo = null)
         {
 
             var localVarPath = "/loyalty/v1/points/";
@@ -1097,6 +1103,7 @@ namespace IO.Swagger.Api
             if (playerId != null) localVarQueryParams.Add("playerId", Configuration.ApiClient.ParameterToString(playerId)); // query parameter
             if (cardNo != null) localVarQueryParams.Add("cardNo", Configuration.ApiClient.ParameterToString(cardNo)); // query parameter
             if (membershipNo != null) localVarQueryParams.Add("membershipNo", Configuration.ApiClient.ParameterToString(membershipNo)); // query parameter
+            if (testMembershipNo != null) localVarQueryParams.Add("testMembershipNo", Configuration.ApiClient.ParameterToString(testMembershipNo)); // query parameter
 
             // authentication (auth) required
             // http basic authentication required
@@ -1132,10 +1139,11 @@ namespace IO.Swagger.Api
         /// <param name="playerId">Customer identifier from the digital platform (optional)</param>
         /// <param name="cardNo">Number on the back of the membership card. If specified, then Grade will be returned. (optional)</param>
         /// <param name="membershipNo">Retail Casino membership number. (optional)</param>
+        /// <param name="testMembershipNo">Retail test Casino membership number. (optional)</param>
         /// <returns>Task of RetrievePointsBalanceResponse</returns>
-        public async System.Threading.Tasks.Task<RetrievePointsBalanceResponse> RetrievePointsBalanceAsync (long? playerId = null, double? cardNo = null, string membershipNo = null)
+        public async System.Threading.Tasks.Task<RetrievePointsBalanceResponse> RetrievePointsBalanceAsync (long? playerId = null, double? cardNo = null, string membershipNo = null, string testMembershipNo = null)
         {
-             ApiResponse<RetrievePointsBalanceResponse> localVarResponse = await RetrievePointsBalanceAsyncWithHttpInfo(playerId, cardNo, membershipNo);
+             ApiResponse<RetrievePointsBalanceResponse> localVarResponse = await RetrievePointsBalanceAsyncWithHttpInfo(playerId, cardNo, membershipNo, testMembershipNo);
              return localVarResponse.Data;
 
         }
@@ -1147,8 +1155,9 @@ namespace IO.Swagger.Api
         /// <param name="playerId">Customer identifier from the digital platform (optional)</param>
         /// <param name="cardNo">Number on the back of the membership card. If specified, then Grade will be returned. (optional)</param>
         /// <param name="membershipNo">Retail Casino membership number. (optional)</param>
+        /// <param name="testMembershipNo">Retail test Casino membership number. (optional)</param>
         /// <returns>Task of ApiResponse (RetrievePointsBalanceResponse)</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<RetrievePointsBalanceResponse>> RetrievePointsBalanceAsyncWithHttpInfo (long? playerId = null, double? cardNo = null, string membershipNo = null)
+        public async System.Threading.Tasks.Task<ApiResponse<RetrievePointsBalanceResponse>> RetrievePointsBalanceAsyncWithHttpInfo (long? playerId = null, double? cardNo = null, string membershipNo = null, string testMembershipNo = null)
         {
 
             var localVarPath = "/loyalty/v1/points/";
@@ -1179,6 +1188,7 @@ namespace IO.Swagger.Api
             if (playerId != null) localVarQueryParams.Add("playerId", Configuration.ApiClient.ParameterToString(playerId)); // query parameter
             if (cardNo != null) localVarQueryParams.Add("cardNo", Configuration.ApiClient.ParameterToString(cardNo)); // query parameter
             if (membershipNo != null) localVarQueryParams.Add("membershipNo", Configuration.ApiClient.ParameterToString(membershipNo)); // query parameter
+            if (testMembershipNo != null) localVarQueryParams.Add("testMembershipNo", Configuration.ApiClient.ParameterToString(testMembershipNo)); // query parameter
 
             // authentication (auth) required
             // http basic authentication required

@@ -134,7 +134,8 @@ namespace IO.Swagger.Test
             //long? playerId = null;
             //double? cardNo = null;
             //string membershipNo = null;
-            //var response = instance.RetrievePointsBalance(playerId, cardNo, membershipNo);
+            //string testMembershipNo = null;
+            //var response = instance.RetrievePointsBalance(playerId, cardNo, membershipNo, testMembershipNo);
             //Assert.IsInstanceOf<RetrievePointsBalanceResponse> (response, "response is RetrievePointsBalanceResponse");
         }
         
